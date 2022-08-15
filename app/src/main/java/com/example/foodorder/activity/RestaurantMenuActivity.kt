@@ -155,23 +155,26 @@ class RestaurantMenuActivity : AppCompatActivity() {
 
 
     //Once items added to cart, If user press back , items will be cleared
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (menuAdapter.getSelectedItemCount() > 0) {
 
-            val alterDialog = androidx.appcompat.app.AlertDialog.Builder(this)
-            alterDialog.setTitle("Alert!")
-            alterDialog.setMessage("Going back will remove everything from cart")
-            alterDialog.setPositiveButton("Okay") { _, _ ->
-                super.onBackPressed()
-            }
-            alterDialog.setNegativeButton("Cancel") { _, _ ->
-
-            }
-            alterDialog.show()
-        } else {
+        val alterDialog = androidx.appcompat.app.AlertDialog.Builder(this)
+        alterDialog.setTitle("Alert!")
+        alterDialog.setMessage("Going back will remove everything from cart")
+        alterDialog.setPositiveButton("Okay") { _, _ ->
             super.onBackPressed()
         }
+        alterDialog.setNegativeButton("Cancel") { _, _ ->
+
+        }
+        alterDialog.show()
+    } else {
+        super.onBackPressed()
     }
+    }
+
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 

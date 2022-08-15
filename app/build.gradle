@@ -2,29 +2,23 @@
 plugins{
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
+   // id 'kotlin-android-extensions'
     id 'kotlin-kapt'
 }
 
-repositories {
-    maven{ url "https://jitpack.io"}
-}
 
 android {
-    compileSdk 31
+    compileSdk 33
     buildToolsVersion '33.0.0'
     defaultConfig {
         applicationId "com.example.foodorder"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildFeatures{
-        viewBinding=true
-    }
 
     buildTypes {
         release {

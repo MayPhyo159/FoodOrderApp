@@ -3,6 +3,7 @@ package com.example.foodorder.activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.content.SharedPreferences
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.foodorder.R
@@ -38,6 +39,7 @@ class LoginRegisterActivity : AppCompatActivity() {
         supportActionBar?.title = "DashBoard"
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         when (supportFragmentManager.findFragmentById(R.id.frameLayout)) {
             !is LoginFragment -> openLoginFragment()
