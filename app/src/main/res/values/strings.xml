@@ -21,6 +21,15 @@
     <string name="can_t_find_any_restaurant_with_that_name">Can\'t find any Restaurant with that name!</string>
     <string name="no_orders_placed">No Orders Placed Yet</string>
     <string name="foodorder">FoodOrder</string>
+    <string name="welcome">Welcome From FoodOrder!</string>
+    <string name="ordersuccess">Your order has been successfully placed!</string>
+    <string name="ok">OK</string>
+    <string name="s1">Paneer Masala</string>
+    <string name="price">Ks200</string>
+    <string name="user">User</string>
+    <string name="username">UserName</string>
+    <string name="phno">+95 9999889988"</string>
+
 
 
 </resources>

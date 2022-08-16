@@ -56,9 +56,9 @@ class CartActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.toolBar)
         cartProgressLayout = findViewById(R.id.cartProgressLayout)
 
-        restaurantId = intent.getStringExtra("restaurantId").toString()
-        restaurantName = intent.getStringExtra("restaurantName").toString()
-        selectedItemsId = intent.getStringArrayListExtra("selectedItemsId") as ArrayList<String>
+        restaurantId= intent.getStringExtra("restaurantId").toString()
+        restaurantName= intent.getStringExtra("restaurantName").toString()
+        selectedItemsId= intent.getStringArrayListExtra("selectedItemsId") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
         txtOrderingFrom.text = restaurantName
 
         setToolBar()

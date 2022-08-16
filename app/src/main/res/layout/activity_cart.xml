@@ -60,9 +60,8 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.4"
                     android:padding="10dp"
                     android:text="@string/ordering_from"
                     android:textAlignment="center"
@@ -73,9 +72,9 @@
                     android:id="@+id/txtOrderingFrom"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.6"
                     android:padding="10dp"
                     android:paddingStart="3dp"
+                    android:paddingEnd="2dp"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />

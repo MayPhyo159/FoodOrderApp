@@ -53,14 +53,14 @@
                 android:id="@+id/txtChoose"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/ic_favourite_empty"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
                 android:background="#e2e2e2"
                 android:text="@string/choose_from_menu_listed_below"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:drawableEndCompat="@drawable/ic_favourite_empty" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerViewRestaurantMenu"
@@ -81,7 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:background="#e53935"
+                    android:background="#1565C0"
                     android:text="@string/proceed_to_cart_btn"
                     android:textColor="@color/white" />
 

@@ -11,7 +11,7 @@
         android:layout_height="80dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
-        android:contentDescription="user"
+        android:contentDescription="@string/user"
         android:src="@drawable/ic_person_black_24dp" />
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="5dp"
         android:padding="5dp"
-        android:text="UserName"
+        android:text="@string/username"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -31,9 +31,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginLeft="5dp"
         android:padding="5dp"
-        android:text="+91 9999889988"
+        android:text="+95 9999889988"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold|italic" />

@@ -39,7 +39,8 @@
             android:hint="  Search Restaurants"
             android:maxLines="1"
             android:padding="5dp"
-            android:paddingStart="12dp" />
+            android:paddingStart="12dp"
+            android:paddingEnd="3dp"/>
 
     </RelativeLayout>
 
